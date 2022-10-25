@@ -1,0 +1,20 @@
+CAPTURA DE DATOS
+
+- no me deja colocar la grafica en la misma interfaz, se
+ crea es como ventana adicional. 
+- Usando mplwidget
+
+
+
+REPORTES
+
+
+
+------------------------------------------------------------------------
+
+CONFIG. PARAMETROS
+- PERFECTO
+SALIR
+- PERFECTO
+PRINCIPAL
+- PERFECTO
