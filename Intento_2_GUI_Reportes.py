@@ -154,7 +154,7 @@ class Ui_MainWindow(object):
 
         for i in range(len(lineas)):
             print("ultimas 4 lineas son:")
-            print(valores_temperatura[len(lineas)-1])
+            print(valores_temperatura[len(lineas)-1][0])
             print(valores_temperatura[len(lineas) - 2])
             print(valores_temperatura[len(lineas) - 3])
 
@@ -189,9 +189,9 @@ class Ui_MainWindow(object):
         #val_min_temp = str(min(valores_temperatura))
         #print("v max es: ", val_max_temp)
 
-        self.label_5.setText(str(valores_temperatura[len(lineas) - 3]))
-        self.label_4.setText(str(valores_temperatura[len(lineas) - 2]))
-        self.label_3.setText(str(valores_temperatura[len(lineas) - 1]))
+        self.label_5.setText(str(valores_temperatura[len(lineas) - 3][0]))
+        self.label_4.setText(str(valores_temperatura[len(lineas) - 2][0]))
+        self.label_3.setText(str(valores_temperatura[len(lineas) - 1][0]))
 
         #self.label_3.setText("MainWindow", (max(valores_temperatura)))
 
